@@ -31,8 +31,9 @@ span {
     align-items: center;
     margin-top: 20px;
     .main-image {
-      width: 250px;
-      height: 250px;
+      // width: 250px;
+      // height: 250px;
+      width: 100%;
       border-radius: 7px;
     }
   }
@@ -43,6 +44,9 @@ span {
     background-color: hsl(216, 50%, 16%);
     border-radius: 7px;
     // padding-left: 30px;
+    .ctrl-margin {
+      padding: 0 30px 0 30px;
+    }
   }
   .caption-container {
   }

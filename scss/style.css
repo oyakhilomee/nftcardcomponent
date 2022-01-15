@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
 body {
   font-family: "Outfit", sans-serif;
+  background-color: #0d192b;
 }
 
 p {
@@ -14,6 +15,10 @@ h3 {
 
 .eth-bal {
   color: #00fff7;
+}
+
+.hr-line {
+  border: 0.1px solid #8bacda;
 }
 
 span {
@@ -52,7 +57,7 @@ span {
 
 .parentdiv .nftcard-div {
   width: 350px;
-  height: 550px;
+  height: 590px;
   background-color: #14253d;
   border-radius: 7px;
 }
@@ -114,5 +119,9 @@ span {
 
 .parentdiv .image-avatar-div .jules {
   padding-left: 7px;
+}
+
+.parentdiv .nftcard-div:hover span:hover {
+  color: #00fff7;
 }
 /*# sourceMappingURL=style.css.map */

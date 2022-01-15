@@ -2,6 +2,7 @@
 
 body {
   font-family: "Outfit", sans-serif;
+  background-color: hsl(217, 54%, 11%);
 }
 
 p {
@@ -17,9 +18,14 @@ h3 {
   color: hsl(178, 100%, 50%);
 }
 
+.hr-line {
+  border: 0.1px solid hsl(215, 51%, 70%);
+}
+
 span {
   color: #fff;
 }
+
 .parentdiv {
   display: flex;
   justify-content: center;
@@ -40,15 +46,13 @@ span {
 
   .nftcard-div {
     width: 350px;
-    height: 550px;
+    height: 590px;
     background-color: hsl(216, 50%, 16%);
     border-radius: 7px;
     // padding-left: 30px;
     .ctrl-margin {
       padding: 0 30px 0 30px;
     }
-  }
-  .caption-container {
   }
   .eth-countdown {
     display: flex;
@@ -83,6 +87,11 @@ span {
     }
     .jules {
       padding-left: 7px;
+    }
+  }
+  .nftcard-div:hover {
+    span:hover {
+      color: hsl(178, 100%, 50%);
     }
   }
 }

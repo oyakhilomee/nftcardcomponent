@@ -8,24 +8,61 @@
     <title>NFT Card Component</title>
   </head>
   <body>
-    <div class="nftcard-div">
-      <!--beginning of cardcomponentdiv -->
+    <div class="parentdiv">
+      <div class="nftcard-div">
+        <!--beginning of cardcomponentdiv -->
 
-      <img src="/images/image-equilibrium.jpg" alt="image-equilibrium" />
+        <div class="img-container">
+          <!-- beginning of img-container-->
+          <img
+            src="/images/image-equilibrium.jpg"
+            alt="image-equilibrium"
+            class="main-image"
+          />
+        </div>
+        <!-- End of img-container -->
 
-      <h2>Equilibrum</h2>
+        <div class="caption-container">
+          <h3>Equilibrum #3429</h3>
 
-      <p>Our Equilibrum collection promotes balance and calm.</p>
+          <p>Our Equilibrum collection promotes balance and calm.</p>
 
-      <img src="/images/icon-ethereum.svg" alt="" />
-      <p>0.041ETH</p>
+          <div class="eth-countdown">
+            <div class="ethdiv">
+              <img
+                src="/images/icon-ethereum.svg"
+                alt="icon-ethereum"
+                class="icon-ethereum"
+              />
+              <p class="eth-bal">0.041ETH</p>
+            </div>
+            <!-- end of ethdiv -->
 
-      <img src="/images/icon-clock.svg" alt="" />
-      <p>3 days left</p>
-
-      <img src="/images/image-avatar.png" alt="" />
-      <p>Creation of Jules Wyvern</p>
+            <div class="countdowndate">
+              <img
+                src="/images/icon-clock.svg"
+                alt="icon-clock"
+                class="icon-clock"
+              />
+              <p>3 days left</p>
+            </div>
+            <!-- end of coundtowndate-->
+          </div>
+          <!-- end of eth-countdown-->
+          <div class="image-avatar-div">
+            <img
+              src="/images/image-avatar.png"
+              alt="image-avatar"
+              class="image-avatar"
+            />
+            <p class="jules">Creation of <span> Jules Wyvern </span></p>
+          </div>
+          <!-- End of image-avatar div-->
+        </div>
+        <!-- End of caption-container -->
+      </div>
+      <!--end of cardcomponentdiv -->
     </div>
-    <!--end of cardcomponentdiv -->
+    <!-- end of parentdiv -->
   </body>
 </html>

@@ -2,4 +2,114 @@
 body {
   font-family: "Outfit", sans-serif;
 }
+
+p {
+  font-size: 18px;
+  color: #8bacda;
+}
+
+h3 {
+  color: #fff;
+}
+
+.eth-bal {
+  color: #00fff7;
+}
+
+span {
+  color: #fff;
+}
+
+.parentdiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.parentdiv .img-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 20px;
+}
+
+.parentdiv .img-container .main-image {
+  width: 250px;
+  height: 250px;
+  border-radius: 7px;
+}
+
+.parentdiv .nftcard-div {
+  width: 350px;
+  height: 550px;
+  background-color: #14253d;
+  border-radius: 7px;
+}
+
+.parentdiv .eth-countdown {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.parentdiv .ethdiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.parentdiv .ethdiv .icon-ethereum {
+  padding-right: 7px;
+}
+
+.parentdiv .countdowndate {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.parentdiv .countdowndate .icon-clock {
+  padding-right: 7px;
+}
+
+.parentdiv .image-avatar-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.parentdiv .image-avatar-div .image-avatar {
+  width: 35px;
+  height: 35px;
+  border: 1.5px solid #fff;
+  border-radius: 50%;
+}
+
+.parentdiv .image-avatar-div .jules {
+  padding-left: 7px;
+}
 /*# sourceMappingURL=style.css.map */

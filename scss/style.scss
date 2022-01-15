@@ -4,5 +4,81 @@ body {
   font-family: "Outfit", sans-serif;
 }
 
-.nftcard-div {
+p {
+  font-size: 18px;
+  color: hsl(215, 51%, 70%);
+}
+
+h3 {
+  color: #fff;
+}
+
+.eth-bal {
+  color: hsl(178, 100%, 50%);
+}
+
+span {
+  color: #fff;
+}
+.parentdiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    .main-image {
+      width: 250px;
+      height: 250px;
+      border-radius: 7px;
+    }
+  }
+
+  .nftcard-div {
+    width: 350px;
+    height: 550px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 7px;
+    // padding-left: 30px;
+  }
+  .caption-container {
+  }
+  .eth-countdown {
+    display: flex;
+    // align-items: center;
+    justify-content: space-evenly;
+    // justify-content: center;
+  }
+
+  .ethdiv {
+    display: flex;
+    align-items: center;
+    // justify-content: center;
+    .icon-ethereum {
+      padding-right: 7px;
+    }
+  }
+  .countdowndate {
+    display: flex;
+    align-items: center;
+    .icon-clock {
+      padding-right: 7px;
+    }
+  }
+  .image-avatar-div {
+    display: flex;
+    align-items: center;
+    .image-avatar {
+      width: 35px;
+      height: 35px;
+      border: 1.5px solid #fff;
+      border-radius: 50%;
+    }
+    .jules {
+      padding-left: 7px;
+    }
+  }
 }

@@ -55,6 +55,10 @@ span {
   border-radius: 7px;
 }
 
+.parentdiv .img-container .img-overlay {
+  background: #00fff7;
+}
+
 .parentdiv .nftcard-div {
   width: 350px;
   height: 590px;

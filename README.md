@@ -1,3 +1,3 @@
 # nftcardcomponent
 
-https://keller1.netlify.app/
+[Link to App](https://keller1.netlify.app/)
